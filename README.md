@@ -3,14 +3,14 @@ I will be attaching notes as well as the necessary points that can keep me handy
 
 <hr>
 
-# Architecture of the Project.
+## Architecture of the Project.
 
 <img width="913" height="470" alt="image" src="https://github.com/user-attachments/assets/bd256029-5cc1-4160-9359-dd94916a55dd" />
 
 <hr>
 
-## Notes ##
-# These are all the DBT Commands that are used in the whole tutorial.
+# Notes
+## These are all the DBT Commands that are used in the whole tutorial.
 
 **dbt init** - to initalize a dbt project(makes the whole dbt project's folder which contains multiple folder like models,macros,seeds etc by itself without you creating one by one.)
 
