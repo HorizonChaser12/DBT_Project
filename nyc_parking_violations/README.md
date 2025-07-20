@@ -1,7 +1,6 @@
 Welcome to your new dbt project!
 
-This is the project architecture as of now.
-![alt text](image.png)
+
 
 ### Using the starter project
 

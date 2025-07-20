@@ -1,8 +1,16 @@
+This is a DBT Project based upon the tutorial made by Mark Freeman on LinkedIn Learning. As a fresher who is new into Data related work, this project drives me the productional level knowledge one should gain before going to actual coding/Production Environement. 
+I will be attaching notes as well as the necessary points that can keep me handy while working and learning DBT.
+
+<hr>
+
+This is the project architecture as of now.
+![alt text](image.png)
+
 <hr>
 
 These are all the DBT Commands that are used in the whole tutorial.
 
-**dbt init** - to initalize a dbt project(makes the whole dbt project's folder by itself without you creating one by one.)
+**dbt init** - to initalize a dbt project(makes the whole dbt project's folder which contains multiple folder like models,macros,seeds etc by itself without you creating one by one.)
 
 **dbt debug** - to check the whole dbt project of any issue or errors in syntax. You need to be in the dbt project folder to execute this and the below commands.
 
