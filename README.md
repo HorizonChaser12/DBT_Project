@@ -4,7 +4,7 @@ I will be attaching notes as well as the necessary points that can keep me handy
 <hr>
 
 This is the project architecture as of now.
-![alt text](image.png)
+![alt text]<img width="913" height="470" alt="image" src="https://github.com/user-attachments/assets/bd256029-5cc1-4160-9359-dd94916a55dd" />
 
 <hr>
 
