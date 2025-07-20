@@ -1,3 +1,4 @@
+# Intro and why I am doing it?
 This is a DBT Project based upon the tutorial made by Mark Freeman on LinkedIn Learning. As a fresher who is new into Data related work, this project drives me the productional level knowledge one should gain before going to actual coding/Production Environement. 
 I will be attaching notes as well as the necessary points that can keep me handy while working and learning DBT.
 
@@ -10,7 +11,7 @@ I will be attaching notes as well as the necessary points that can keep me handy
 <hr>
 
 # Notes
-## These are all the DBT Commands that are used in the whole tutorial.
+## DBT Commands: 
 
 **dbt init** - to initalize a dbt project(makes the whole dbt project's folder which contains multiple folder like models,macros,seeds etc by itself without you creating one by one.)
 
