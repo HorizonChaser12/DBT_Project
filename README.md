@@ -16,22 +16,21 @@ I will be attaching notes as well as the necessary points that can keep me handy
 # Notes
 ## DBT : 
 
-**dbt init** - to initalize a dbt project(makes the whole dbt project's folder which contains multiple folder like models,macros,seeds etc by itself without you creating one by one.)
+- **dbt init** - to initalize a dbt project(makes the whole dbt project's folder which contains multiple folder like models,macros,seeds etc by itself without you creating one by one.)
 
-**dbt debug** - to check the whole dbt project of any issue or errors in syntax. You need to be in the dbt project folder to execute this and the below commands.
+- **dbt debug** - to check the whole dbt project of any issue or errors in syntax. You need to be in the dbt project folder to execute this and the below commands.
 
-**dbt compile** - this is used to compile all the available code in the dbt project. It says about the issues that will happen after the code is executed. Comes in handy when there are lots of code in your project and cross-references too, compiling this helps to check all the issues rather than running all the codse.
+- **dbt compile** - this is used to compile all the available code in the dbt project. It says about the issues that will happen after the code is executed. Comes in handy when there are lots of code in your project and cross-references too, compiling this helps to check all the issues rather than running all the codse.
 
-**dbt run** - runs all the code available in the models section of the dbt project. Should be run with cautions as this is critical process that can affect multiple files in database.
+- **dbt run** - runs all the code available in the models section of the dbt project. Should be run with cautions as this is critical process that can affect multiple files in database.
 
-**dbt docs generate** - looks for all the metadata present in the project adn then it will create the files in JSON format.
+- **dbt docs generate** - looks for all the metadata present in the project adn then it will create the files in JSON format.
 
-**dbt docs serve** - this will take all the files from created by the bt docs generate and will open up a webpage describing you project and everything in your project. You can get details for all your models as well as what does the data contain. There is a pictorial graph too to visualize your whole dbt project.
+- **dbt docs serve** - this will take all the files from created by the bt docs generate and will open up a webpage describing you project and everything in your project. You can get details for all your models as well as what does the data contain. There is a pictorial graph too to visualize your whole dbt project.
 
-**Materialization** - controls how your models within your database are viewed and created. This is done mostly to limit what tables can be viewed by database users, Reduce costs of data storage or to speed up certaion data pipelines(For example dashboards, where the need for the data needs to be fast to get the UI going good.)
-
+- **Materialization** - controls how your models within your database are viewed and created. This is done mostly to limit what tables can be viewed by database users, Reduce costs of data storage or to speed up certaion data pipelines(For example dashboards, where the need for the data needs to be fast to get the UI going good.) \n
 Five different materialization methods within dbt:
-    - table : Creates a fully rebuilt physical table that stores data          persistently for fast querying.
+    - table : Creates a fully rebuilt physical table that stores data persistently for fast querying.
     - view : Defines a database view that dynamically reflects up-to-date data without storing results.
     - incremental : Builds or updates a table by processing only new or changed data since the last run, improving efficiency.
     - ephemeral : Does not create any database object; the model is inlined as a CTE in downstream queries at runtime.
