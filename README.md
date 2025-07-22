@@ -6,7 +6,7 @@ I will be attaching notes as well as the necessary points that can keep me handy
 
 ## Architecture of the Project.
 
-<img width="1141" height="639" alt="image" src="https://github.com/user-attachments/assets/71e19848-1db5-4212-a403-3045aedf41f5" />
+<img width="913" height="470" alt="image" src="https://github.com/user-attachments/assets/71e19848-1db5-4212-a403-3045aedf41f5" />
 
 
 <img width="913" height="470" alt="image" src="https://github.com/user-attachments/assets/bd256029-5cc1-4160-9359-dd94916a55dd" />
