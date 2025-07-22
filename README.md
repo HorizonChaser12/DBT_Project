@@ -37,6 +37,11 @@ Five different materialization methods within dbt:
     - materialized view : Creates a database-managed object that stores precomputed results like a table but refreshes automatically like a view
 You need to define all these materialization in the dbt_project.yml file under the models section.
 
+- **docs_block.md** - document making and handling it manually can be very tiring. Using the same variables again and again makes it a hefty task. Here, docs_block comes handy. You have to just add up comments and description about the docs file and then you can use it in the schema.yml to create your customized docs page when triggering `dbt docs generate`.
+For example - {% docs violation_code %}
+              The standardized code of the violation.
+              {% enddocs %}
+
 # Others :
 **ref** - this is not a dbt command, its more of a SQL command that helps reference sql files inside another SQL file. For the SQL files which are present in model folder, the first one doesnt need to have any refs in it as it isnt referring to anything but it can refer to files from other folders too.
 for example - {{ref('bronze_parking_violations')}} , which is written in the silver_parking_violation_codes file to get a reference from the bronze_parking_violations.
