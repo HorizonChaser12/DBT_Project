@@ -25,3 +25,5 @@ I will be attaching notes as well as the necessary points that can keep me handy
 
 **dbt docs serve** - this will take all the files from created by the bt docs generate and will open up a webpage describing you project and everything in your project. You can get details for all your models as well as what does the data contain. There is a pictorial graph too to visualize your whole dbt project.
 
+# Acknowledgments
+This project was solely made for educational purposes and my will to learn DBT. This project is a practical part of the series by [Mark Freeman](https://www.linkedin.com/in/mafreeman2/) on [LinkedIn](https://www.linkedin.com/learning-login/share?account=2154233&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fdata-engineering-with-dbt%3Ftrk%3Dshare_ent_url%26shareId%3DbVDhiv1CQfWyoe6ipZnG5w%253D%253D)
