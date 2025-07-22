@@ -29,14 +29,12 @@ I will be attaching notes as well as the necessary points that can keep me handy
 - **dbt docs serve** - this will take all the files from created by the bt docs generate and will open up a webpage describing you project and everything in your project. You can get details for all your models as well as what does the data contain. There is a pictorial graph too to visualize your whole dbt project.
 
 - **Materialization** - controls how your models within your database are viewed and created. This is done mostly to limit what tables can be viewed by database users, Reduce costs of data storage or to speed up certaion data pipelines(For example dashboards, where the need for the data needs to be fast to get the UI going good.) <br>
-
 Five different materialization methods within dbt:
     - table : Creates a fully rebuilt physical table that stores data persistently for fast querying.
     - view : Defines a database view that dynamically reflects up-to-date data without storing results.
     - incremental : Builds or updates a table by processing only new or changed data since the last run, improving efficiency.
     - ephemeral : Does not create any database object; the model is inlined as a CTE in downstream queries at runtime.
     - materialized view : Creates a database-managed object that stores precomputed results like a table but refreshes automatically like a view
-
 You need to define all these materialization in the dbt_project.yml file under the models section.
 
 # Others :
